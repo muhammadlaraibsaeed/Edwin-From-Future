@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 
-Route::resource('posts',PostController::class);
+Route::resource('poss',PostController::class);
 
 Route::get('contact',[PostController::class,'contact']);
 
